@@ -1,11 +1,13 @@
 import Header from "./components/header";
 import ListarTarefa from "./pages/tarefa/ListarTarefa";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <ListarTarefa />
+      <Footer />
     </div>
   );
 }
